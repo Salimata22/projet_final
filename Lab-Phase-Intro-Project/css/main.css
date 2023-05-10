@@ -186,7 +186,7 @@ select{
 
 }
 
-.three-two-two:hover, .buttons1:hover, .buttons1:hover p{
+.three-two-two:hover, .buttons1:hover, .buttons1:hover p , .buttons1:hover p .lien{
   background-color: white ;
   color: rgba(19, 32, 220, 0.8);
   
@@ -244,7 +244,7 @@ select{
 }
 
 .corps-left2{ 
-  position: fixed;
+  position: absolute;
   right: 2rem;
   top: 50%;
   transform: translate y(-50%);
@@ -526,15 +526,13 @@ a.models{
   align-items: center;
   border: 2px solid #1320DC ;
   
-
-
 }
 
-.buttons1 p {
+.lien{
   color: white;
-  
-}
+  text-decoration: none;
 
+}
 
 .button2{
   width: 25%;
@@ -552,9 +550,8 @@ a.models{
 .button2 p{
   
   color: #1320DC ;
-  
-
 }
+
 
 .dernier{
   width: 100%;

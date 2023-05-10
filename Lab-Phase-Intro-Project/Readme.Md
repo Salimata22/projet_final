@@ -1,10 +1,11 @@
 ## Information
 
-Ceci est le repos de base pour le projet.
+projet final realisé avec html css et javascript
 
 
-Vous y trouverez les images, les icones et les couleurs....
 
-### Lien du site Temoin
+### Lien du site 
 
-[https://lmc-shop.netlify.app](https://lmc-shop.netlify.app)
+[salimata-final-project.netlify.app](salimata-final-project.netlify.app)
+
+
