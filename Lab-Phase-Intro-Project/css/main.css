@@ -189,8 +189,6 @@ select{
 .three-two-two:hover, .buttons1:hover, .buttons1:hover p , .buttons1:hover p .lien{
   background-color: white ;
   color: rgba(19, 32, 220, 0.8);
-  
-
 
 }
 
@@ -199,12 +197,18 @@ select{
   justify-content: center;
   align-items: center;
   height: 60px;
-  color: #77798C;
+  
 }
 
-.nav-bar-bottoms:hover p{
+.nav-bar-bottoms a{
+  text-decoration: none;
+  color: #77798C;
+
+}
+
+.nav-bar-bottoms:hover a{
   color: rgba(19, 32, 220, 0.8);
-} 
+}
 
 .nav-bar-bottoms{
   margin-left: 1rem;
@@ -533,6 +537,8 @@ a.models{
   text-decoration: none;
 
 }
+
+
 
 .button2{
   width: 25%;
