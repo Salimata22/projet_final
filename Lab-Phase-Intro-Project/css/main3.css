@@ -122,6 +122,8 @@ select{
 }
 
 
+
+
 .three-one{
   height: 45px;
   width: 200px;
@@ -131,14 +133,7 @@ select{
 
 }
 
-.three-two{
-  margin-left: 1rem;
-  height: 45px;
-  width: 160px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 .one-four{
   display: flex;
@@ -159,15 +154,51 @@ select{
 
 }
 
+.three-two{
+  margin-left: 1rem;
+  height: 45px;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid salmon;
+}
+
+.threeS{
+
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  height: 45px;
+}
+
+.threeS:hover .three-two-two{
+
+  transform: scale(1);
+  
+  
+}
 
 .three-two-two{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 0.5rem;
-  width: 100px;
-  height: 40px;
+  width: 250px;
+  position: relative;
+  background-color: white;
+  margin-top: 1rem;
+  border: 1px solid #f1f1f1;
   border-radius: 0.5rem;
+  padding-left: 2rem; 
+  transform: scale(0);
+  
+}
+
+
+
+
+
+
+.three-two-two p{
+  margin-top: 1rem;
+  
   
 }
 
@@ -260,6 +291,11 @@ select{
 
 }
 
+.corps-bouton2:hover, .corps-bouton2:hover a{
+  background-color: white;
+  color: rgba(19, 32, 220, 0.8);
+}
+
 .corps-bouton2{
     width: 34%;
     display: flex;
@@ -267,7 +303,7 @@ select{
     align-items: center;
     background-color: rgba(19, 32, 220, 0.8);
     color: white;
-    border: 1px solid rgba(19, 32, 220, 0.8);
+    border: 2px solid rgba(19, 32, 220, 0.8);
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     
@@ -387,9 +423,6 @@ select{
   
 }
 
-
-
-
 .corps3-2{
   
   padding-top: 0.5rem;
@@ -410,8 +443,6 @@ select{
     background-color: #77798C;
     margin-bottom: 1rem;
     margin-top: 2rem;
-
-
 }
 
 .corps5{
@@ -425,15 +456,28 @@ select{
     border-radius: 0.5rem;
     padding-left: 2rem;
     color: #14151e;
-
 }
 
 .corps6{
     width: 70%;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(19, 32, 220, 0.8);
     border-radius: 0.5rem;
+    border: 2px solid rgba(19, 32, 220, 0.8);;
+}
 
+.corps6 a{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.corps6:hover,.corps6:hover a{
+  background-color: white;
+  color: rgba(19, 32, 220, 0.8);;
 }
 
 
