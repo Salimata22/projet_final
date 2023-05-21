@@ -42,6 +42,10 @@ body {
   
 }
 
+span{
+  cursor: pointer;
+}
+
 .container{
   width: 100%;
   height: 100vh;
@@ -132,13 +136,14 @@ select{
 }
 
 .three-two{
-  margin-left: 1rem;
-  height: 45px;
-  width: 160px;
+  margin-bottom: 0.5rem;
+  height: 100%;
+  width: 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  cursor: pointer;
+  } 
 
 .one-four{
   display: flex;
@@ -159,23 +164,41 @@ select{
 
 }
 
+.threeS{
+  margin-top: 1rem;
+  width: 200px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+}
 
+
+.threeS:hover .three-two-two{
+  transform: scale(1);
+}
 
 .three-two-two{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 0.5rem;
-  width: 100px;
-  height: 40px;
+  width: 200px;
+  position: relative;
+  background-color: white;
+  border: 1px solid #f1f1f1;
   border-radius: 0.5rem;
+  padding-left: 2rem; 
+  padding-top: 2rem;
+  box-shadow: -1px -1px 10px #f1f1f1;
+  transform: scale(0);
   
 }
 
-.menu{
-
+.three-two-two a{
+  text-decoration: none;
+  color: #14151e;
 }
 
+.three-two-two p{
+  margin-bottom: 1.5rem;
+ 
+}
 
 
 .box-one1{
