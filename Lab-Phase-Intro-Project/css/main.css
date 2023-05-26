@@ -42,6 +42,8 @@ body {
   
 }
 
+
+
 span{
   cursor: pointer;
 }
@@ -160,14 +162,17 @@ select{
    border-radius: 0.5rem;
    border: 2px solid #1320DC;
    color: #1320DC ;
+   cursor: pointer;
 }
 
-.three-two-one:hover, .button2:hover, .button2:hover p, .dernier-bouton:hover, .dernier-bouton:hover p{
+.three-two-one p{
+  color: #1320DC ;
+}
+
+.three-two-one:hover, .three-two-one:hover p,  .button2:hover, .button2:hover p, .dernier-bouton:hover, .dernier-bouton:hover p{
   background-color: #1320DC ;
   color: white;
   
-   
-
 }
 
 
@@ -183,10 +188,17 @@ select{
    background-color:  #1320DC;
    color: white;
    border: 2px solid #1320DC ;
+   cursor: pointer;
 
 }
 
-.three-two-two:hover, .buttons1:hover, .buttons1:hover p , .buttons1:hover p .lien{
+.three-two-two p{
+  color: white;
+  
+
+}
+
+.three-two-two:hover, .three-two-two:hover p, .buttons1:hover, .buttons1:hover p , .buttons1:hover p .lien{
   background-color: white ;
   color: rgba(19, 32, 220, 0.8);
 
@@ -583,6 +595,235 @@ a.models{
   align-items: center;
 
 }
+
+
+
+
+
+
+
+
+
+
+.modal{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  transform: scale(0);
+}
+
+.three-two-one:focus  .modal{
+  transform: scale(1);
+}
+
+.container-modal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  height: 430px;
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+.modal2{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  transform: scale(1);
+}
+
+
+.container-modal2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+  width: 450px;
+  height: 600px;
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1px;
+}
+
+
+.connexion{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  border-bottom: 1px solid #f1f1f1;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 2rem;
+}
+
+.lien-connexion a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.inscrit{
+   display: flex;
+  padding-left: 0.5rem;
+
+}
+.inscrit p{
+  padding-top: 0.3rem;
+}
+
+.inscrit a{
+  text-decoration: none;
+  color: #FB0A72;
+  padding-left: 0.3rem;
+}
+
+.resau{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.resau-1{
+  font-size: 13px;
+  width: 49%;
+  height: 45px;
+  border-radius: 0.2rem;
+  background-color: white;
+  display: flex;
+ 
+
+}
+
+.resau-2{
+  font-size: 13px;
+  width: 49%;
+  height: 45px;
+  border-radius: 0.2rem;
+  background-color: white;
+  display: flex;
+  background-color: #1320DC;;
+
+}
+.fa-google-plus-g{
+  padding-top: 0.8rem;
+  padding-left: 0.5rem;
+  color: #FB0A72;
+  font-size: 20px;
+}
+
+.fa-facebook-f{
+  font-size: 20px;
+  padding-top: 0.8rem;
+  padding-left: 0.5rem;
+  color: white;
+  
+}
+
+.lien-google a{
+  text-decoration: none;
+  color: black;
+  padding-left: 1rem;
+ 
+  
+
+}
+
+
+
+.lien-facebook a{
+  text-decoration: none;
+  color: white;
+  padding-left: 1rem;
+
+}
+
+.lignes{
+  display: flex;
+  width: 80%;
+  height: 2px;
+  justify-content: center;
+}
+
+.lignes p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+.ligne{
+  width: 30%;
+  border-bottom: 1.5px solid #f1f1f1;
+  
+  margin-top: 1.6rem;
+
+}
+
+.donnee{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.nom_label{
+  border: 0.5px  solid #f1f1f1;
+  border-radius: 0.3rem;
+  font-size: 15px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  display: flex;
+  
+}
+
+.nom_label:hover{
+  border: 1px solid #1320DC;
+}
+
+.valider{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1320DC;
+  border: 2px solid #1320DC;
+  border-radius: 0.5rem;
+}
+
+.valider:hover, .valider:hover a{
+  background-color: white;
+  color: #1320DC;
+  transition: 0.2s;
+}
+
+.valider a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.oublie a{
+  text-decoration: none;
+  color: #FB0A72;
+
+}
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {

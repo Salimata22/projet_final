@@ -225,11 +225,18 @@ select{
   background-color: white;
   border-radius: 0.5rem;
   margin-right: 1.5rem;
+  cursor: pointer;
 
 }
 .mini-lien{
   text-decoration: none;
   color: #14151e;
+
+}
+
+.mini-lien-profil{
+  text-decoration: none;
+  color: #1320DC;
 
 }
 .mini-lien:hover{
@@ -273,7 +280,9 @@ select{
 
 .nom_label{
   width: 100%;
-  font-size: large;
+  border: 0.5px  solid #f1f1f1;
+  border-radius: 0.5rem;
+  font-size: 15px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -293,12 +302,14 @@ select{
 }
 
 .bio_label{
+  border: 0.5px  solid #f1f1f1;
+  border-radius: 0.5rem;
   width: 100%;
-  font-size: large;
+  font-size: 15px;
   height: 100px;
   padding-left: 3rem;
- display: flex;
- justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 
 }
 
